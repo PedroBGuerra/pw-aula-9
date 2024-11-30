@@ -1,0 +1,57 @@
+h1 {
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    flex-direction: col;
+    gap: 2rem
+}
+
+
+.none-box, .inline-block-box, .inline-box, .block {
+    width: 20rem;
+    height: 10rem;
+    background-color:mediumaquamarine;
+    color: white;
+    border: 1px solid ;
+    border-radius: 1rem;
+    padding: 1rem
+}
+
+.block {
+    background-color: black;
+    color: white;
+    display: block;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem
+}
+
+
+span.inline {
+    border: 1px solid purple;
+    border-radius: 1rem;
+    background-color: purple;
+    display: inline;
+}
+
+
+.none {
+    display:none;
+}
+
+.row-class {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+span.inline-block {
+    display: inline-block;
+    border: 1px solid purple;
+    border-radius: 1rem;
+    background-color: purple;
+}
